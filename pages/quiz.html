@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <h1>Triangle Quiz</h1>
+    <form class="quiz-form">
+        <div class="question-container">
+            <p>A triangle where all sides are equal has which of following angles?</p>
+            <label> <input type="radio" name="question 1" value="60° 60° 60°" />60° 60° 60°</label>
+            <label><input type="radio" name="question 1" value= "30° 60° 90°"/>30° 60° 90°</label>
+            <label><input type="radio" name="question 1" value= "45° 45° 90°"/>45° 45° 90°</label>
+        </div>
+        <div class="question-container">
+            <p>Which of the following triangles are always similar?</p>
+            <label><input type="radio" name="question 2" value="isosceles"/>isosceles </label>
+            <label><input type="radio" name="question 2" value="right angle" />right angle </label>
+            <label><input type="radio" name="question 2" value="equilateral" />equilateral </label>
+        </div>
+        <div class="question-container">
+            <p>Which type of triangle has one 90 degree angle?</p>
+            <label><input type="radio" name="question 3" value="isosceles" />isosceles </label>
+            <label><input type="radio" name="question 3" value="right angle" />right angle </label>
+            <label><input type="radio" name="question 3" value="equilateral" />equilateral </label>
+
+        </div>
+        <div class="question-container">
+            <p>In which triangle all 3 angles measure less than 90 degrees?</p>
+            <label><input type="radio" name="question 4" value="obtuse" />obtuse</label>
+            <label><input type="radio" name="question 4" value="acute"/>acute</label>
+            <label><input type="radio" name="question 4" value="right angle" />right angle</label>
+        </div>
+
+        <div class="question-container">
+            <p>An isosceles triangle has____</p>
+            <label><input type="radio" name="question 5" value="No equal sides" />No equal sides</label>
+            <label><input type="radio" name="question 5" value="2 equal sides" />2 equal sides</label>
+            <label><input type="radio" name="question 5" value="3 equal sides" />3 equal sides</label>
+        </div>
+    </form>
+
+    <button id="check-solution">Submit Answers</button>
+    <div id="output"></div>
+</body>
+<script src="/scripts/quiz.js"></script>
+
+</html>
