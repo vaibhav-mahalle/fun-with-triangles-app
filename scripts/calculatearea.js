@@ -9,6 +9,16 @@ function calculateArea() {
     output.innerText = "The area of triangle is: "+area+" \u33A0";
 }
 
+function clickHandler() {
+    if(height.value <=0 || base.value <= 0)
+    {
+        output.innerText = "The sides of triangle must be atleast greater than zero";
+    }
+    else
+    {
+        calculateArea();
+    }
+}
 
-button.addEventListener('click', calculateArea)
+button.addEventListener('click', clickHandler)
 

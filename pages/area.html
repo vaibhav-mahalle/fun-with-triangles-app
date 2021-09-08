@@ -4,20 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Area of triangle.</title>
 </head>
 <body>
-    <h1>Check area of triangle.</h1>
-    <p>Area of triangle = 1/2(Base*Height)</p>
+    <nav class="navigation container">
+        <div class="nav-brand"><strong>All about triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/index.html">Angels of triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/pages/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/pages/area.html">Area</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/pages/quiz.html">TriangleQuiz</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="hero hero-heading container-input">Check area of triangle.</h1>
+    <p class="container-input">Area of triangle = 1/2(Base*Height)</p>
     
+    <div class="container-input">
     <label for="base">Base(in cm):</label>
     <input type="number" id="base" />
+    </div>
+
+    <div class="container-input">
     <label for="height">Height(in cm):</label>
     <input type="text" id="height" />
+    </div>
 
-    <button id="calculate-area">find out</button>
-
-    <div id="output"></div>
+    <div class="container-input">
+    <button id="calculate-area" class="link primary-link">find out</button>
+    </div>
+    
+    <div id="output" class="container-input"></div>
 </body>
 <script src="/scripts/calculatearea.js"></script>
 </html>

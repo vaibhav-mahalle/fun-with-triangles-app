@@ -10,21 +10,47 @@
 </head>
 
 <body>
-    <h1 class="header">Is Shape Triangle?</h1>
+    <nav class="navigation container">
+        <div class="nav-brand"><strong>All about triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/index.html">Angels of triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/pages/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/pages/area.html">Area</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/pages/quiz.html">TriangleQuiz</a>
+            </li>
+        </ul>
+    </nav>
 
-    <label for="angle">angle1</label>
-    <input type="number" class="angle" />
+    <div class="container-input">
+        <h1 class="hero hero-heading ">Is Shape Triangle?</h1>
+    </div>
+    
+    <div class="container-input">
+        <label for="angle">angle1</label>
+        <input type="number" class="angle" />
+    </div>
+    <div class="container-input">
+        <label for="angle">angle2</label>
+        <input type="number" class="angle" />
+    </div>
+    <div class="container-input">
+        <label for="angle">angle3</label>
+        <input type="number" class="angle" />
+    </div>
 
-    <label for="angle">angle2</label>
-    <input type="number" class="angle" />
-
-    <label for="angle">angle3</label>
-    <input type="number" class="angle" />
-
-    <button id="is-triangle-button">check here!</button>
-
-    <div id="output-message"></div>
+    <div class="container-input"><button id="is-triangle-button" class="link primary-link">check here!</button>
+    </div>
+    
+    <div id="output-message" class="container-input"></div>
 </body>
-<script src="./scripts/app.js"></script>
+<script src="/scripts/app.js"></script>
+</body>
 
 </html>
